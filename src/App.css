@@ -41,7 +41,8 @@ h1 {
 
 .todo-input {
     padding: 14px 32px 14px 16px;
-    border-radius: 4px 0 0 4px;
+    border-radius: 4px;
+    margin-right: 5px;
     border: 2px solid #149fff;
     outline: none;
     width: 320px;
@@ -57,7 +58,8 @@ h1 {
 .todo-button {
     padding: 16px;
     border: none;
-    border-radius: 0 4px 4px 0;
+    border-radius: 4px 4px;
+    margin-left: 5px;
     cursor: pointer;
     outline: none;
     background: linear-gradient(
